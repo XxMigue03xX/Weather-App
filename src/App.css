@@ -38,6 +38,17 @@
     top: 5%;
     background: #FFFFFF;
     border-radius: 19.4184px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px; 
+    line-height: 10px;
+}
+.mode_day {
+    background: radial-gradient(50% 50% at 50% 50%, #53388F 0%, #2F2958 100%);
+}
+.mode_night {
+    background: radial-gradient(50% 50% at 50% 50%, #D5F3FF 0%, #51B4E8 100%);
 }
 .weather_container{
     max-width: 100%;
@@ -178,7 +189,6 @@
 }
 .spinner {
     content: "";
-    display: block;
     position: absolute;
     top: 50%;
     left: 50%;

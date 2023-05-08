@@ -33,7 +33,9 @@ function App() {
   return (
     <div className={`main_container ${mode==="day"?"main_day":"main_night"}`}>
       <h1 className='title'>Weather App</h1>
-      <button className='mode_button' onClick={switchMode}></button>
+      <button className={`mode_button ${mode==="day"?"mode_day":"mode_night"}`} onClick={switchMode}>
+        {mode==="day"?"🌙":"☀️"}
+      </button>
         {weather ? (
           <>
           <article className={`weather_container ${mode==="day"?"cont_day":"cont_night"}`}>
