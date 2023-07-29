@@ -43,6 +43,8 @@
     font-weight: 600;
     font-size: 15px; 
     line-height: 10px;
+    cursor: pointer;
+    border: none;
 }
 .mode_day {
     background: radial-gradient(50% 50% at 50% 50%, #53388F 0%, #2F2958 100%);
@@ -180,6 +182,8 @@
     font-weight: 600;
     font-size: 18px; 
     color: #FFFFFF;
+    cursor: pointer;
+    border: none;
 }
 .btn_day {
     background: #38A0D8;
